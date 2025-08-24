@@ -1,4 +1,4 @@
-# Religious Books Library (React + Node/Express, No DB)
+# Islamic Books Library (React + Node/Express, No DB)
 
 This project follows the given instructions: 
 - Frontend: React. View all books, open a book to see details and all reviews, add/edit/delete reviews.
