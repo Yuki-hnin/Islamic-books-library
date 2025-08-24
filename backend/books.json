@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "The Quran",
+    "author": "Various",
+    "rating": 5,
+    "description": "The holy scripture of Islam, revealed to Prophet Muhammad (PBUH).",
+    "cover": "/covers/quran.jpg",
+    "reviews": [
+      {
+        "id": 201,
+        "user": "Yuki",
+        "rating": 5,
+        "comment": "Very inspiring and beautifully written. Truly divine."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sahih al-Bukhari",
+    "author": "Imam al-Bukhari",
+    "rating": 5,
+    "description": "One of the most authentic collections of hadith in Islam.",
+    "cover": "/covers/Sahih.jpg",
+    "reviews": [
+      {
+        "id": 301,
+        "user": "Rumi",
+        "rating": 5,
+        "comment": "A must-have reference for every Muslim household."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sahih Muslim",
+    "author": "Imam Muslim",
+    "rating": 5,
+    "description": "A highly respected hadith collection, second only to Sahih Bukhari.",
+    "cover": "/covers/Sahih Muslim.jpg",
+    "reviews": [
+      {
+        "id": 401,
+        "user": "Romana",
+        "rating": 4,
+        "comment": "A treasure of knowledge, with authentic narrations."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Riyadh as-Salihin",
+    "author": "Imam an-Nawawi",
+    "rating": 4,
+    "description": "A famous collection of hadith focusing on morals and daily life.",
+    "cover": "/covers/riyadh-salihin.jpg",
+    "reviews": [
+      {
+        "id": 501,
+        "user": "Ethan",
+        "rating": 5,
+        "comment": "Teaches beautiful manners and everyday spirituality."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "40 Hadith Nawawi",
+    "author": "Imam an-Nawawi",
+    "rating": 5,
+    "description": "A short collection of 40 essential hadith for Muslims.",
+    "cover": "/covers/40-hadith-nawawi.jpg",
+    "reviews": [
+      {
+        "id": 601,
+        "user": "Charcoal",
+        "rating": 5,
+        "comment": "Concise, practical, and deeply meaningful."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Tafsir Ibn Kathir",
+    "author": "Ibn Kathir",
+    "rating": 5,
+    "description": "A classical commentary on the Quran, widely used and respected.",
+    "cover": "/covers/tafsir-ibn-kathir.webp",
+    "reviews": [
+      {
+        "id": 701,
+        "user": "Su Pone Chit",
+        "rating": 5,
+        "comment": "Explains the Quran beautifully with historical context."
+      }
+    ]
+  }
+]
