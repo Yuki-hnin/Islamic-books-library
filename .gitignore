@@ -1,0 +1,4 @@
+node_modules/
+dist/
+islamic-books-library/
+.env
