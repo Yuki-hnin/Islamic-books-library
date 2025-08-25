@@ -1,13 +1,36 @@
-# Religious Books Library — Frontend (React + Vite)
+# Islamic Books Library (React + Node/Express, No DB)
 
-## Setup
-1) `npm install`
-2) Create `.env` with `VITE_API_URL=http://localhost:4000`
-3) `npm run dev`
-4) Open http://localhost:5173
+This project follows the given instructions: 
+- Frontend: React. View all books, open a book to see details and all reviews, add/edit/delete reviews.
+- Backend: Node + Express. Uses JSON file for data. REST endpoints provided.
+- No login; asks for user's name when submitting a review.
 
-## Pages
-- Home: lists all books (title, author, rating)
-- Book detail: shows description and all reviews, add/edit/delete your reviews
+## Run locally
 
-Styling is kept clean and responsive with a calm library theme.
+### Backend
+```
+cd backend
+npm install
+npm run start
+# API on http://localhost:4000
+```
+
+### Frontend
+```
+cd frontend
+npm install
+echo VITE_API_URL=http://localhost:4000 > .env
+npm run dev
+# App on http://localhost:5173
+```
+
+## Deploy
+- Frontend: Vercel/Netlify (set env `VITE_API_URL` to your backend URL)
+- Backend: Render/Railway (Node build/run).
+
+## Endpoints
+- GET /books
+- GET /books/:id
+- POST /books/:id/reviews
+- PUT /books/:id/reviews/:reviewId
+- DELETE /books/:id/reviews/:reviewId
